@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Register - CollegeCareerConnect</title>
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- header section start -->
+    <header class="header">
+        <section class="flex">
+            <div id="menu-btn" class="fas fa-bars-staggered"></div>
+            <a href="home.html" class="logo"><i class="fas fa-briefcase"></i>CollegeCareerConnect.</a>
+            <nav class="navbar">
+                <a href="home.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="jobs.html">All Jobs</a>
+                <a href="contact.html">Contact Us</a>
+                <a href="student_register.html" class="active">Student Register</a>
+                <a href="register.html">Company Register</a>
+            </nav>
+        </section>
+    </header>
+    <!-- header section end -->
+
+    <!-- student register section start -->
+    <section class="account-form">
+        <form action="" method="post">
+            <h3>Student Registration</h3>
+            <div class="input">
+                <span>Full Name</span>
+                <input type="text" name="name" required maxlength="50" placeholder="Enter your full name" class="box">
+            </div>
+            <div class="input">
+                <span>Email</span>
+                <input type="email" name="email" required maxlength="50" placeholder="Enter your email" class="box">
+            </div>
+            <div class="input">
+                <span>Password</span>
+                <input type="password" name="pass" required maxlength="20" placeholder="Enter your password" class="box">
+            </div>
+            <div class="input">
+                <span>Confirm Password</span>
+                <input type="password" name="c_pass" required maxlength="20" placeholder="Confirm your password" class="box">
+            </div>
+            <div class="input">
+                <span>College/University</span>
+                <input type="text" name="college" required maxlength="100" placeholder="Enter your college/university name" class="box">
+            </div>
+            <div class="input">
+                <span>Course</span>
+                <input type="text" name="course" required maxlength="50" placeholder="Enter your course" class="box">
+            </div>
+            <div class="input">
+                <span>Year of Study</span>
+                <select name="year" class="box" required>
+                    <option value="" disabled selected>Select your year</option>
+                    <option value="1">First Year</option>
+                    <option value="2">Second Year</option>
+                    <option value="3">Third Year</option>
+                    <option value="4">Fourth Year</option>
+                    <option value="5">Fifth Year</option>
+                </select>
+            </div>
+            <div class="box">
+                <input type="submit" value="Register Now" name="submit" class="btn">
+            </div>
+            <p>Already have an account? <a href="student_login.html">Login Now</a></p>
+            <p>Are you a company? <a href="register.html">Company Register</a></p>
+        </form>
+    </section>
+    <!-- student register section end -->
+
+    <!-- footer section start -->
+    <footer class="footer">
+        <section class="grid">
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="home.html"><i class="fas fa-angle-right"></i> home</a>
+                <a href="about.html"><i class="fas fa-angle-right"></i> about</a>
+                <a href="jobs.html"><i class="fas fa-angle-right"></i> all jobs</a>
+                <a href="contact.html"><i class="fas fa-angle-right"></i> contact us</a>
+                <a href="#"><i class="fas fa-angle-right"></i> filter search</a>
+            </div>
+
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#"><i class="fas fa-angle-right"></i> account</a>
+                <a href="student_login.html"><i class="fas fa-angle-right"></i> student login</a>
+                <a href="student_register.html"><i class="fas fa-angle-right"></i> student register</a>
+                <a href="login.html"><i class="fas fa-angle-right"></i> company login</a>
+                <a href="register.html"><i class="fas fa-angle-right"></i> company register</a>
+            </div>
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#"><i class="fab fa-facebook-f"></i> facebook</a>
+                <a href="#"><i class="fab fa-instagram"></i> instagram</a>
+                <a href="#"><i class="fab fa-linkedin"></i> linkedin</a>
+                <a href="#"><i class="fab fa-github"></i> github</a>
+            </div>
+        </section>
+
+        <div class="credit">&copy; copyright @ 2025 by <span>CCC</span> | all rights reserved</div>
+    </footer>
+    <!-- footer section end -->
+
+    <!-- js file link -->
+    <script src="js/script.js"></script>
+</body>
+</html> 
